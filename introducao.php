@@ -48,10 +48,25 @@
 
 <!--Interpolação-->
 <?php
-    echo ' Ola $nome você possui $idade anos. '
-    
+    echo ' Ola $nome você possui $idade anos. <br>';
 ?>
 
+<!-- Variaveis Constante --> 
+ <?php
+    define('BD_URL', 'Endereço do Banco de Dados');
+    echo BD_URL;
+?>
+<br>
+
+<!-- Condições Simples / composta / aninhada / switch --> 
+ <?php
+    $idade = 16;
+
+    if($idade < 18){
+        echo 'Menor de idade';
+    }else{
+        echo 'Maior de idade';
+    }
 
     
 </body>

@@ -67,7 +67,7 @@
     }else{
         echo 'Maior de idade';
     }
-
+?>
     
 </body>
 </html>
